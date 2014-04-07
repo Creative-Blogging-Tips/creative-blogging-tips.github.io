@@ -1,0 +1,26 @@
+body {
+  font-family: 'Open sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background: beige;
+  color: chocolate;
+  font-size: 2.5em;
+  margin: 0;
+  padding: 0.32em;
+  text-align: center;
+}
+
+footer {
+  margin: 2em 0;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+footer a {
+  border-bottom: 0.1em solid;
+  text-decoration: none;
+  color: inherit;
+}
