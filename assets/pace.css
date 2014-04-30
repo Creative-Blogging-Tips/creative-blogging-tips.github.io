@@ -16,7 +16,7 @@
   z-index: 2000;
   top: 0;
   left: 0;
-  height: 0.5em;
+  height: 3px;
 
   -webkit-transition: width 1s;
   -moz-transition: width 1s;
@@ -45,8 +45,8 @@
   z-index: 2000;
   top: 15px;
   right: 15px;
-  width: 1.3em;
-  height: 1.3em;
+  width: 14px;
+  height: 14px;
   border: solid 2px transparent;
   border-top-color: #00b2b3;
   border-left-color: #00b2b3;
