@@ -18,6 +18,8 @@ h1#lab-title {
   padding: 0.5em;
   text-align: center;
   font-weight: normal;
+  box-shadow: 0.3em 0.1em darkgray, 0.5em 0.2em rgba(128, 128, 128, 0.3);
+  border-bottom: 0.1em solid #E2E2BD;
 }
 
 h1#lab-title a {
