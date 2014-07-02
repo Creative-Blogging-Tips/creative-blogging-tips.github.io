@@ -11,8 +11,8 @@ body {
 
 h1#lab-title {
   font-family: 'Ubuntu', sans-serif;
-  background: beige;
-  color: #00b2b3;
+  background: #3498db;
+  color: #fff;
   font-size: 2.6em;
   margin: 0;
   padding: 0.5em;
@@ -21,7 +21,7 @@ h1#lab-title {
   -webkit-box-shadow: 0.3em 0.1em darkgray, 0.5em 0.2em rgba(128, 128, 128, 0.3);
   -moz-box-shadow: 0.3em 0.1em darkgray, 0.5em 0.2em rgba(128, 128, 128, 0.3);
   box-shadow: 0.3em 0.1em darkgray, 0.5em 0.2em rgba(128, 128, 128, 0.3);
-  border-bottom: 0.1em solid #E2E2BD;
+  border-bottom: 0.1em solid #2a5877;
 }
 
 h1#lab-title a {
@@ -33,7 +33,7 @@ h1#lab-title a {
 }
 
 h1#lab-title a:hover {
-  text-shadow: 0.05em 0.05em #fff, 0.1em 0.1em rgba(0, 178, 179, 0.39);
+  text-shadow: 0.05em 0.05em #00A3FF, 0.08em 0.08em rgba(255, 255, 255, 0.39);
 }
 
 main {
@@ -42,8 +42,9 @@ main {
 
 main div.pages-title {
   display: inline-block;
+  color: #fff;
   font-size: 2em;
-  background: beige;
+  background: #3498db;
   width: 5em;
   padding: 0.5em;
   margin: 0.2em 0;
@@ -95,7 +96,7 @@ footer:hover {
 
 footer a {
   text-decoration: none;
-  color: #00b2b3;
+  color: #3498db;
 }
 
 footer a:hover {
