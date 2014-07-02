@@ -102,4 +102,16 @@ footer a:hover {
   body {
     font-size: 0.55em;
   }
+  
+  h1#lab-title {
+    font-size: 2.6em;
+  }
+  
+  footer {
+    font-size: 1.6em;
+  }
+  
+  main ul.pages-list li {
+    font-size: 1.8em;
+  }
 }
