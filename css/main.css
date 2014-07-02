@@ -18,6 +18,8 @@ h1#lab-title {
   padding: 0.5em;
   text-align: center;
   font-weight: normal;
+  -webkit-box-shadow: 0.3em 0.1em darkgray, 0.5em 0.2em rgba(128, 128, 128, 0.3);
+  -moz-box-shadow: 0.3em 0.1em darkgray, 0.5em 0.2em rgba(128, 128, 128, 0.3);
   box-shadow: 0.3em 0.1em darkgray, 0.5em 0.2em rgba(128, 128, 128, 0.3);
   border-bottom: 0.1em solid #E2E2BD;
 }
@@ -25,6 +27,13 @@ h1#lab-title {
 h1#lab-title a {
   color: inherit;
   text-decoration: none;
+  -webkit-transition: 0.1s all ease-in-out;
+  -moz-transition: 0.1s all ease-in-out;
+  transition: 0.1s all ease-in-out;
+}
+
+h1#lab-title a:hover {
+  text-shadow: 0.05em 0.05em #fff, 0.1em 0.1em rgba(0, 178, 179, 0.39);
 }
 
 main {
