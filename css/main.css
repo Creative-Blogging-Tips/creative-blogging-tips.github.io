@@ -1,15 +1,15 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
 }
 
-body {
+body { 
   font-family: 'Ubuntu', sans-serif;
   margin: 0;
   padding: 0;
 }
 
-h1#lab-title {
+h1#lab-title { 
   font-family: 'Ubuntu', sans-serif;
   background: #3498db;
   color: #fff;
@@ -24,7 +24,7 @@ h1#lab-title {
   border-bottom: 0.1em solid #2a5877;
 }
 
-h1#lab-title a {
+h1#lab-title a { 
   color: inherit;
   text-decoration: none;
   -webkit-transition: 0.1s all ease-in-out;
@@ -32,97 +32,101 @@ h1#lab-title a {
   transition: 0.1s all ease-in-out;
 }
 
-h1#lab-title a:hover {
+h1#lab-title a:hover { 
   text-shadow: 0.05em 0.05em #00A3FF, 0.08em 0.08em rgba(255, 255, 255, 0.39);
 }
 
-main {
+main { 
   padding: 0.2em;
 }
 
-main div.pages-title {
+main div.pages-title { 
   display: inline-block;
   color: #fff;
-  font-size: 2em;
+  font-size: 2.1em;
   background: #3498db;
   width: 5em;
   padding: 0.5em;
-  margin: 0.2em 0;
+  margin: 0.2em 0 0;
+  -webkit-box-shadow: 0.125em 0.125em darkgray,0.25em 0.25em rgba(128, 128, 128, 0.3);
+  -moz-box-shadow: 0.125em 0.125em darkgray,0.25em 0.25em rgba(128, 128, 128, 0.3);
   box-shadow: 0.125em 0.125em darkgray,0.25em 0.25em rgba(128, 128, 128, 0.3);
 }
 
-main ul.pages-list {
+main ul.pages-list { 
   list-style: none;
 }
 
-main ul.pages-list * {
+main ul.pages-list * { 
   -webkit-transition: 0.06s all ease-in-out;
   -o-transition: 0.06s all ease-in-out;
   transition: 0.06s all ease-in-out;
 }
 
-main ul.pages-list li {
+main ul.pages-list li { 
   background: whitesmoke;
   font-size: 1.6em;
   margin: 0.5em 0;
   padding: 0.4em;
   border-bottom: 0.2em solid #3498db;
 }
-main ul.pages-list:hover li {
+
+main ul.pages-list:hover li { 
   background: rgba(245, 245, 245, 0.5);
   color: gray;
   border-bottom-color: rgba(52, 152, 219, 0.5);
 }
-main ul.pages-list li:hover {
+
+main ul.pages-list li:hover { 
   background: #3498db;
   color: #fff;
 }
 
-main ul.pages-list li a {
+main ul.pages-list li a { 
   color: inherit;
   text-decoration: none;
 }
 
-footer {
+footer { 
   background: rgba(245, 245, 245, 0.5);
   margin: 1em 0;
   text-align: center;
-  padding: 1em;
+  padding: 0.5em;
 }
 
-footer:hover {
+footer:hover { 
   background: rgb(245, 245, 245);
 }
 
-footer a {
+footer a { 
   text-decoration: none;
   color: #3498db;
 }
 
-footer a:hover {
+footer a:hover { 
   border-bottom: 0.1em solid;
 }
 
-@media all and (max-width: 50em) {
-  body {
+@media all and (max-width: 50em) { 
+  body { 
     font-size: 0.8em;
   }
 }
 
-@media all and (max-width: 30em) {
-  body {
+@media all and (max-width: 30em) { 
+  body { 
     font-size: 0.55em;
   }
-  
-  h1#lab-title {
+
+  h1#lab-title { 
     font-size: 2.5em;
   }
-  
-  footer {
-    font-size: 1.6em;
+
+  footer { 
+    font-size: 2em;
   }
-  
-  main ul.pages-list li {
-    font-size: 1.8em;
+
+  main ul.pages-list li { 
+    font-size: 2em;
   }
 }
