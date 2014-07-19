@@ -1,4 +1,4 @@
-creative-blogging-tips.github.io
+[creative-blogging-tips.github.io](http://creative-blogging-tips.github.io)
 ================================
 
-Demo(s)...
+Lab of SeeBeeTee
