@@ -1,0 +1,60 @@
+@import "compass/css3";
+
+body {
+  background: #ccc;
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  padding: 0.5em;
+}
+
+.text {
+  text-align: center;
+  padding: 0.4em;
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 0.1em solid;
+  }
+}
+
+.box {
+  @include box-sizing(border-box);
+  float: left;
+  width: 20%;
+  height: 10em;
+  border: 0.1em solid rgba(white, 0.4);
+  transition: 0.2s all ease-in-out;
+  position: relative;
+  text-align: center;
+  padding: 4.4em 0;
+  font-size: 1.1em;
+  color: #fff;
+  text-shadow: 0.05em 0.05em black;
+  
+  @media(max-width: 56.25em) {
+    width: 25%;
+  }
+  
+  @media(max-width: 43.75em) {
+    width: 33.33%;
+  }
+    
+  &:hover {
+    //@include transform(scale(0.7));
+    border-style: double;
+    border-width: 0.4em;
+  }  
+}
+
+$material-colors: #F44336, #E91E63, #9C27B0, #673AB7, #3F51B5, #2196F3, #03A9F4, #00BCD4, #009688, #4CAF50, #8BC34A, #CDDC39, #FFEB3B, #FFC107, #FF9800, #FF5722, #795548, #9E9E9E, #607D8B, #000000, #FFFFFF;
+
+@for $i from 1 through 21 {
+  .box#{$i} {
+    background: nth($material-colors, $i);
+  }
+}
+
+.clear-fix {
+  clear: both;
+}

@@ -1,0 +1,135 @@
+body {
+  background: #ccc;
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  padding: 0.5em;
+}
+
+.text {
+  text-align: center;
+  padding: 0.4em;
+}
+.text a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 0.1em solid;
+}
+
+.box {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 20%;
+  height: 10em;
+  border: 0.1em solid rgba(255, 255, 255, 0.4);
+  transition: 0.2s all ease-in-out;
+  position: relative;
+  text-align: center;
+  padding: 4.4em 0;
+  font-size: 1.1em;
+  color: #fff;
+  text-shadow: 0.05em 0.05em black;
+}
+@media (max-width: 56.25em) {
+  .box {
+    width: 25%;
+  }
+}
+@media (max-width: 43.75em) {
+  .box {
+    width: 33.33%;
+  }
+}
+.box:hover {
+  border-style: double;
+  border-width: 0.4em;
+}
+
+.box1 {
+  background: #F44336;
+}
+
+.box2 {
+  background: #E91E63;
+}
+
+.box3 {
+  background: #9C27B0;
+}
+
+.box4 {
+  background: #673AB7;
+}
+
+.box5 {
+  background: #3F51B5;
+}
+
+.box6 {
+  background: #2196F3;
+}
+
+.box7 {
+  background: #03A9F4;
+}
+
+.box8 {
+  background: #00BCD4;
+}
+
+.box9 {
+  background: #009688;
+}
+
+.box10 {
+  background: #4CAF50;
+}
+
+.box11 {
+  background: #8BC34A;
+}
+
+.box12 {
+  background: #CDDC39;
+}
+
+.box13 {
+  background: #FFEB3B;
+}
+
+.box14 {
+  background: #FFC107;
+}
+
+.box15 {
+  background: #FF9800;
+}
+
+.box16 {
+  background: #FF5722;
+}
+
+.box17 {
+  background: #795548;
+}
+
+.box18 {
+  background: #9E9E9E;
+}
+
+.box19 {
+  background: #607D8B;
+}
+
+.box20 {
+  background: #000000;
+}
+
+.box21 {
+  background: #FFFFFF;
+}
+
+.clear-fix {
+  clear: both;
+}
